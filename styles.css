@@ -32,7 +32,7 @@ footer {
   height: 40px;
   width: 40px;
   margin: 0 5px;
-  display: inline-flex;
+  display:block;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
