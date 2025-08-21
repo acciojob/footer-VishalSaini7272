@@ -1,1 +1,94 @@
-/* your code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  width: 100%;
+  background: #111;
+  color: #fff;
+}
+
+.content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-details .logo_name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.media-icons a {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #333;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.media-icons a:hover {
+  background: #fff;
+  color: #111;
+}
+
+.link-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.link-boxes .box {
+  list-style: none;
+}
+
+.link-boxes .link_name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.link-boxes li a {
+  text-decoration: none;
+  color: #bbb;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.link-boxes li a:hover {
+  color: #fff;
+}
+
+.bottom-details {
+  background: #2c2c2c;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.bottom-details .policy a {
+  text-decoration: none;
+  color: #bbb;
+}
+
+.bottom-details .policy a:hover {
+  color: #fff;
+}
